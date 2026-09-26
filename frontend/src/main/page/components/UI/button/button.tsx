@@ -9,7 +9,7 @@ function Button() {
       
       Начать 
 
-      <MoveUpRightIcon size={48}/>
+      <MoveUpRightIcon size={40}/>
 
     </div>
   )

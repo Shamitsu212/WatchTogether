@@ -8,20 +8,17 @@ function Main() {
   return (
     <div className={styles.Main}>
       
-      <h1>
+      <h1 className={styles.Main__Logoname}>
         Watch Forever
       </h1>
       
-      <p>
+      <p className={styles.Main__Aboutlogo}>
         Лучший сервис для совместного просмотра видео
       </p>
 
-      <div>
-
-        <Button />
-
+      <div className={styles.Main__Container}>
         <Input />
-
+        <Button />
       </div>
 
     </div>
