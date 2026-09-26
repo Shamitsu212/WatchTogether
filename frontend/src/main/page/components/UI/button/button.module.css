@@ -2,8 +2,15 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(93, 230, 173);
+
+    background-color: var(--primary);
+
     padding: 10px;
+
     border-radius: 16px;
+
     font-size: 2.5rem;
+    color: var(--text);
+    font-family: var(--font5);
+    font-weight: 400;
 }

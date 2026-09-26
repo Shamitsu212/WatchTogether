@@ -1,27 +1,43 @@
 .Main{
+
+    position: relative;
+
     width: 100%;
     height: 100vh;
-    gap: 20px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 
-    
+    background-image: url("../../assets/pic/2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
-.Main__Logoname{
+.Main__h{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     font-size: 6.5rem;
-    color: var(--primary);
+    color: var(--text);
+    font-family: var(--font5);
 
 } 
 .Main__Aboutlogo{
     font-size: 1.8rem;
     color: var(--text-sec);
+    font-family: var(--font2);
 
 }
 .Main__Container{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
 
+    margin-top: 30px;
 }

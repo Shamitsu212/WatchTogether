@@ -1,8 +1,13 @@
 .input{
-     box-sizing: border-box;  
+
+     background-color: var(--bg-sec);
+
      border: 2px solid #4e5058;  
      border-radius: 8px;
+
      padding: 10px 14px;
+
      font-size: 2rem;
-  
+     color: var(--text);
+     font-family: var(--font5);
 }

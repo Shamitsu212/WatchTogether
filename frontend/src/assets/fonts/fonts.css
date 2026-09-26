@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&family=Nunito:wght@400;500;600;700;800;900&family=Onest:wght@400;500;600;700;800&display=swap');
+
 :root {
-    --font-main: "Inter", sans-serif;
+    --font1: "Inter", sans-serif;
+    --font2: "Manrope", sans-serif;
+    --font3: "Montserrat", sans-serif;
+    --font4: "Onest", sans-serif;
+    --font5: "Golos Text", sans-serif;
+
+    /* Жирный, округлый */
+    --font6: "Nunito", sans-serif;
 }
