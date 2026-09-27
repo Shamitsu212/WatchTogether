@@ -1,4 +1,5 @@
 import Main from '../main/page/main'
+import Menu from '../menu/page/menu'
 import './App.module.css'
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
   return (
     <>
       
-      <Main />
+      <Menu />
 
     </>
   )

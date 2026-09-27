@@ -6,7 +6,13 @@ function Header() {
 
   return (
     <header className={styles.Header}>
-      WatchForever
+      
+      <span className={styles.purple}>
+        Watch
+      </span>
+
+      Together
+
     </header>
   )
 }

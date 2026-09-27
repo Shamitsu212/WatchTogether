@@ -1,0 +1,26 @@
+.Container{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    background-color: var(--bg-sec);
+
+    border: 2px solid #4e5058;  
+    border-radius: 21px;
+
+    padding: 10px 14px;
+
+    font-size: 2rem;
+    color: var(--text);
+    font-family: var(--font5);
+}
+.Container__input{
+    font-size: 2rem;
+    color: var(--text);
+    font-family: var(--font5);
+
+    border: none;
+    background-color: inherit;
+}

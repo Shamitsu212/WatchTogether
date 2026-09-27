@@ -1,4 +1,4 @@
-import Header from './components/layout/header/header'
+import Header from '../../shared/header/header'
 import Button from './components/UI/button/button'
 import Input from './components/UI/input/input'
 import styles from './main.module.css'
